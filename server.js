@@ -3,7 +3,6 @@ const host = 'http://localhost';
 const port = 3030;
 const stats = require('./pcRamUsage.js');
 
-//console.log(http);
 http.createServer((req, res) => {
     let url = req.url;
 
