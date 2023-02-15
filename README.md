@@ -1,4 +1,5 @@
-# -trainingNodeJs-001
+# Server created with node
+
 Creation of a server that uses the node.js "OS" function to return memory usage data from the operating system, returning a JSON with this data.
 
 Console return:
