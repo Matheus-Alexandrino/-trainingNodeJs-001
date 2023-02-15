@@ -1,5 +1,5 @@
 const os = require('os');
-//console.log(os);
+
 
 setInterval(() => {
     const { arch, platform, totalmem, freemem } = os;
