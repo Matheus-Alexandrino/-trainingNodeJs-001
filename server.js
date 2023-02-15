@@ -11,6 +11,6 @@ http.createServer((req, res) => {
 
         res.end(JSON.stringify(stats, null, 2))
     } else {
-        res.end('<h1> Seja bem vindo! </h1>')
+        res.end('<h1> Welcome! </h1>')
     }
 }).listen(port, () => console.log(`Server is Running in  ${host}:${port}, ${stats}`));
